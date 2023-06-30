@@ -1,0 +1,53 @@
+.slideitem-container {
+    flex-grow: 1;
+    background-image: none;
+}
+
+.playerInfo-container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.playerInfo-container-label {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.sidebar-container {
+    width: 12%;
+    height: 20%;
+    left: 88%;
+    top: 40%;
+    justify-content: space-around;
+}
+
+.sidebar-container-button {
+    flex-grow: 1;
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-top: 5;
+    -unity-slice-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.bottombar-container {
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    bottom: auto;
+    top: 45%;
+    height: 10%;
+}
+
+.bottombar-container-button {
+    flex-grow: 1;
+    flex-direction: column;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}

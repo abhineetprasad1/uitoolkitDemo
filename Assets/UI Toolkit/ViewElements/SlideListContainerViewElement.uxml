@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/SlideListContainerStyleSheet.uss?fileID=7433441132597879392&amp;guid=e1e1d6369551d47a795fadad951c44b9&amp;type=3#SlideListContainerStyleSheet" />
+    <ui:VisualElement name="root" style="flex-grow: 1; width: 100%; height: 100%;">
+        <ui:VisualElement name="main-container" style="flex-grow: 1;">
+            <ui:VisualElement name="slide-list-container" style="flex-grow: 1;">
+                <ui:ListView focusable="true" name="slideListView" class="slidelistview" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tabbed-menu-container" class="tabbed-menu-container">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="home" class="tabbed-menu-button" style="margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="profile" class="tabbed-menu-button" style="margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="shop" class="tabbed-menu-button" style="margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

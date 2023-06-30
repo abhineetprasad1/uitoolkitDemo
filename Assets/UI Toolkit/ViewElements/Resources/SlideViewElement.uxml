@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/SlideViewElementStyleSheet.uss?fileID=7433441132597879392&amp;guid=77a62a85a695e44a4942be3f1f4e8d2f&amp;type=3#SlideViewElementStyleSheet" />
+    <ui:VisualElement name="dance-image" class="slideitem-container">
+        <ui:VisualElement name="player-info-container" class="player-info-container playerInfo-container">
+            <ui:Label text="PlayerOne" display-tooltip-when-elided="true" name="player-name" class="playerInfo-container-label" />
+            <ui:Label text="Two step shuffle" display-tooltip-when-elided="true" name="player-dance-name" class="playerInfo-container-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="sidebar-container" class="sidebar-container">
+            <ui:Button display-tooltip-when-elided="true" name="infoButton" class="sidebar-container-button" style="border-left-color: rgba(159, 159, 159, 255); border-right-color: rgba(159, 159, 159, 255); border-top-color: rgba(159, 159, 159, 255); border-bottom-color: rgba(159, 159, 159, 255);" />
+            <ui:Button display-tooltip-when-elided="true" name="likeButton" class="sidebar-container-button" style="background-image: url(&apos;project://database/Assets/Art/UI/likeIcon.png?fileID=2800000&amp;guid=ea25b1567573747b480f43405d6193b4&amp;type=3#likeIcon&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="shareButton" class="sidebar-container-button" style="background-image: url(&apos;project://database/Assets/Art/UI/forwardIcon.png?fileID=2800000&amp;guid=531df09baa4f044d78f9eb94d9262db3&amp;type=3#forwardIcon&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-bar-container" class="bottombar-container" style="height: 10%; justify-content: center; align-items: auto;">
+            <ui:Button name="danceItButton" text="DanceIt" class="bottombar-container-button" />
+            <ui:Button name="songInfoElementTempButton" class="bottombar-container-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
